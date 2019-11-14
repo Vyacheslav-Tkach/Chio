@@ -3314,10 +3314,22 @@ min-height: 360px;
     .not_clouth__item .half-ellipse {
         display: none;
     }
+    
  }
 
 
  @media (max-width: 480px) {
+    .difference__wrap-no_record .difference__item-img img {
+        position: relative;
+        z-index: -1;
+    }
+    .difference__wrap-no_record .difference__item-img img {
+        right: auto;
+    }
+    
+    .difference__wrap-no_record {
+        flex-direction: column;
+    }
     
      .form_second {
          padding: 5%;
