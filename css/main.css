@@ -3323,8 +3323,8 @@ min-height: 360px;
         position: relative;
         z-index: -1;
     }
-    .difference__wrap-no_record .difference__item-img {
-        display: none;
+    .difference__wrap-no_record .difference__item-img img {
+        right: auto;
     }
     
     .difference__wrap-no_record {
