@@ -3323,6 +3323,20 @@ min-height: 360px;
         position: relative;
         z-index: -1;
     }
+
+    .system_control .container_midl .inner .item .video_box {
+        min-height: 300px;
+        max-height: 300px;
+    }
+    .y_box,
+    .y_box .youtube {
+        min-width: 90vw;
+        min-height: auto;
+    }
+    .container_midl .item {
+        padding-top: 20px;
+    }
+    .system_control .container_midl .inner .item .video_box
     .difference__wrap-no_record .difference__item-img img {
         right: auto;
     }
