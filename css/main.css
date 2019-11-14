@@ -269,6 +269,7 @@
      font-family: 'Proxima Nova Lt', Georgia, sans-serif;
      font-size: 18px;
      color: #1e1e1e;
+     overflow-x:hidden;
  }
 
  .container {
@@ -276,6 +277,7 @@
      margin: 0 auto;
      padding-right: 15px;
      padding-left: 15px;
+
  }
 
  .container_midl {
