@@ -4035,6 +4035,9 @@ footer .inner .item-second {
         justify-content: center;
         display: flex;
     }
+    .difference__wrap-terminal .difference__item-img img {
+        left: 0;
+    }
 }
 
 
