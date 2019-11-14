@@ -3379,6 +3379,11 @@ footer .inner .item-second {
         padding-bottom: 80px;
     }
 
+    .system_control .container_midl .wrap {
+        width: 95%;
+        margin: 0 auto;
+    }
+
     .system_control {
         width: 100%;
     }
