@@ -626,6 +626,11 @@
      position: absolute;
      z-index: -1;
      width: 100%;
+     max-width: 100%;
+     overflow-x: hidden;
+ }
+ .map {
+    width: 100%;
  }
 
  .big_text__every_dey {
