@@ -3342,7 +3342,7 @@ footer .inner .item-second {
     }
 
     .system_control .container_midl .inner .item .video_box {
-        min-height: 300px;
+        min-height: 220px;
         max-height: 300px;
     }
 
@@ -3911,6 +3911,17 @@ footer .inner .item-second {
     .system_control {
         margin-bottom: 40px;
     }
+    .y_box .youtube {
+        height: 188px;
+    }
+    .system_control {
+        margin-bottom: 60px;
+    }
+    .guarantee_payback .container_midl .wrap {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    
     
 }
 
