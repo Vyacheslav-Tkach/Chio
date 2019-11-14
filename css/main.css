@@ -3818,6 +3818,11 @@ footer .inner .item-second {
     .iv-i {
         max-height: 200px;
     }
+    .youtube .play,
+    .y_box .youtube .play {
+        width: 15vw;
+        height: 15vw;
+    }
 }
 
 
