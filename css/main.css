@@ -4038,6 +4038,9 @@ footer .inner .item-second {
     .difference__wrap-terminal .difference__item-img img {
         left: 0;
     }
+    .header__top__inner {
+        padding-top: 10px;
+    }
 }
 
 
