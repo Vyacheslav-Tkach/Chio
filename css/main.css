@@ -2665,6 +2665,9 @@ min-height: 360px;
               .partner_feedback .inner {
                 flex-wrap: wrap;
             }
+            .header__top__inner .logo {
+                max-width: 145px;
+            }
  }
 
  @media (max-width: 992px) {
