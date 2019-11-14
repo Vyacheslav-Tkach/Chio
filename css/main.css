@@ -3367,11 +3367,16 @@ footer .inner .item-second {
     .guarantee_payback .container_midl .wrap,
     .system_control .container_midl .inner,
     .real_reviews .wrap_first, .real_reviews .wrap_second, .real_reviews .wrap_third,
-    .our_business_book .wrap {
-        width: 93%;
+    .our_business_book .wrap,
+    .startup_experience .container {
+        width: 90%;
         margin: 0 auto;
         padding-left: 3%;
         padding-right: 3%;
+    }
+    .startup_experience .container  {
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 
     .system_control {
@@ -3380,11 +3385,16 @@ footer .inner .item-second {
 
     .form_second {
         padding: 5%;
-        padding-left: 0;
-        padding-top: 0;
+        padding-left: 4%;
+        padding-top: 4%;
         width: 90%;
     }
 
+    .partner_feedback .inner .item {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    
     .difference__wrap-no_record .difference__item-img img {
         right: auto;
     }
@@ -3417,7 +3427,8 @@ footer .inner .item-second {
     }
 
     .our_business_book .wrap {
-        padding: 40px 20px;
+        padding-bottom: 40px;
+        padding-top: 40px;
     }
 
     .real_reviews .span_first {
@@ -3798,7 +3809,7 @@ footer .inner .item-second {
         padding: 10px;
         transition: 0.3s;
     }
-    .iv-v .iv-i {
+    .iv-i {
         max-height: 200px;
     }
 }
