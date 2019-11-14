@@ -3443,7 +3443,7 @@ footer .inner .item-second {
 
     .partner_feedback .inner .video_box {
         max-width: 100%;
-        min-height: 300px;
+        min-height: 240px;
     }
 
     .partner_feedback .inner .video_box iframe {
@@ -3503,7 +3503,7 @@ footer .inner .item-second {
     }
 
     .question-answer .item {
-        min-height: 350px;
+        min-height: 250px;
     }
 
     .other_cam {
@@ -3734,6 +3734,7 @@ footer .inner .item-second {
 
     .difference__item-img {
         min-height: 0px;
+        margin-top: 10px;
     }
 
     .difference__item {
@@ -3823,6 +3824,94 @@ footer .inner .item-second {
         width: 15vw;
         height: 15vw;
     }
+    .header__top {
+        margin-bottom: 0;
+    }
+    .about_us_for_smi__inner .big_text {
+        padding-top: 0;
+        max-width: 100%;
+    }
+    .about_us_for_smi__item {
+        padding-right: 2%;
+        padding-left: 2%;
+        align-items: center;
+    }
+    .lider__inner .big_text, .big_text__every_dey {
+        font-size: 5vw;
+    }
+    .many_cities__item.many_cities__item__wrap,
+    .many_cities__inner.black_line {
+        flex-direction: column;
+    }
+    .many_cities__item__contant .big_text {
+        margin-top: 0px;
+    }
+    .many_cities__item__contant {
+        margin-top: 30px;
+    }
+    .not_clouth__item {
+        width: 100%;
+    }
+    .not_clouth__item p {
+        min-height: 120px;
+    }
+    .big_text__not_clouth {
+        margin-bottom: 20px;
+    }
+    .big__play__car__item.black_line {
+        margin-bottom: 0px;
+    }
+    .haircut__item__contant {
+        padding-left: 0;
+    }
+    .big__play__car__item.black_line {
+        margin-left: 0;
+    }
+    .big_text-dif {
+        margin-top: 40px;
+    }
+    .big_text-for_15_min,
+    .big-text-no_recoed {
+        margin: 20px 0;
+    }
+    .pont_inner {
+        padding: 20px;
+    }
+    .form_second {
+        margin-bottom: 100px;
+    }
+    .big_text.big_text_media {
+        padding-top: 20px;
+    }
+    .question-answer .big_text {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .free_training .item_second h2 {
+        padding-top: 10px;
+    }
+    .partner_feedback .inner {
+        padding-top: 0px;
+    }
+    .partner_feedback .wrap {
+        padding-bottom: 20px;
+    }
+    .big_text.big_text_media {
+        max-width: 100%;
+    }
+    .real_reviews .wrap {
+        padding-left: 0;
+    }
+    .startup_experience .container_midl .wrap {
+        margin-bottom: 20px;
+    }
+    .system_control .big_text {
+        margin-top: 60px;
+    }
+    .system_control {
+        margin-bottom: 40px;
+    }
+    
 }
 
 
