@@ -3748,7 +3748,7 @@ min-height: 360px;
          font-size: 15px;
      }
      .slow_padding {
-         padding-top: 20px;
+         padding: 10px;
          transition: 0.3s;
      }
  }
