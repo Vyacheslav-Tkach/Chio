@@ -622,16 +622,13 @@
      max-width: 100%;
  }
 
- .many_cities .map {
-     position: absolute;
-     z-index: -1;
-     width: 100%;
-     max-width: 100%;
-     overflow-x: hidden;
+ .many_cities {
+     background-image: url("../img/map.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
  }
- .map {
-    width: 100%;
- }
+ 
 
  .big_text__every_dey {
      max-width: 660px;
