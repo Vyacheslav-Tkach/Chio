@@ -3365,11 +3365,13 @@ footer .inner .item-second {
 
     .our_business_book .wrap,
     .guarantee_payback .container_midl .wrap,
-    .system_control .container_midl .inner {
-        width: 90%;
+    .system_control .container_midl .inner,
+    .real_reviews .wrap_first, .real_reviews .wrap_second, .real_reviews .wrap_third,
+    .our_business_book .wrap {
+        width: 93%;
         margin: 0 auto;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
 
     .system_control {
@@ -3795,6 +3797,9 @@ footer .inner .item-second {
     .slow_padding {
         padding: 10px;
         transition: 0.3s;
+    }
+    iframe .iv-i {
+        max-height: 200px;
     }
 }
 
