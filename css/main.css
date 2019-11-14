@@ -3347,6 +3347,9 @@ min-height: 360px;
     
      .form_second {
          padding: 5%;
+         padding-left: 0;
+         padding-top: 0;
+         width: 90%;
      }
 
      footer .inner {
