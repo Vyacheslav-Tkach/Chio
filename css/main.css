@@ -3987,6 +3987,20 @@ footer .inner .item-second {
     .real_reviews .wrap {
         padding-left: 0;
     }
+    .contact__form {
+        flex-direction: column;
+    }
+    .contact__form label,.contact__form label input {
+        max-width: 100%;
+    }
+    .contact__form label span {
+        font-size: 5vw;
+    }
+    .break {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        }
 }
 
 
