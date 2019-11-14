@@ -3496,10 +3496,12 @@ min-height: 360px;
          text-align: right;
      }
 
-     .default__btn {
+     .default__btn,
+     .slow_padding .header__item-right .default__btn {
          font-size: 10px;
          border-width: 1px;
          padding: 5px 20px;
+         transition: 0.3s;
      }
 
      .btn_header {
@@ -3738,6 +3740,16 @@ min-height: 360px;
          flex-direction: column;
          justify-content: center;
          align-items: center;
+     }
+     .slow_padding .header__item-left span {
+        font-size: 10px;
+     }
+     .slow_padding .header__item-right .number__phone {
+         font-size: 15px;
+     }
+     .slow_padding {
+         padding-top: 20px;
+         transition: 0.3s;
      }
  }
 
