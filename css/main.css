@@ -622,12 +622,12 @@
      max-width: 100%;
  }
 
- .many_cities {
+  .many_cities {
      background-image: url("../img/map.png");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
- }
+ } 
  
 
  .big_text__every_dey {
@@ -644,12 +644,22 @@
      max-width: 730px;
      line-height: 1.5;
  }
+ .question-answer .item .video_box .youtube {
+     min-width: 90%;
+ }
 
  .many_cities__item__wrap {
      display: flex;
      padding-left: 70px;
      align-items: flex-start;
      justify-content: space-between;
+ }
+ .question-answer .inner {
+       display: flex;
+    flex-wrap: wrap;
+ }
+ .question-answer .inner .item {
+     padding: 5px;
  }
 
  .many_cities__item__contant {
