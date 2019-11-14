@@ -625,6 +625,7 @@
  .many_cities .map {
      position: absolute;
      z-index: -1;
+     width: 100%;
  }
 
  .big_text__every_dey {
@@ -1473,6 +1474,7 @@
      left: 0;
      width: 100%;
      z-index: 100px;
+     max-width: 100%;
  }
 
  .shadow.fixed {
