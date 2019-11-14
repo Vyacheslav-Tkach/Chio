@@ -53,13 +53,35 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Proxima Nova Bl';
+    src: url('../fonts/ProximaNova/ProximaNova-Black.eot');
+    src: local('Proxima Nova Black'), local('ProximaNova-Black'),
+        url('../fonts/ProximaNova/ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova/ProximaNova-Black.woff') format('woff'),
+        url('../fonts/ProximaNova/ProximaNova-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova/ProximaNova-Bold.eot');
+    src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+        url('../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 
 
 
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    overflow-x:  hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -3367,7 +3389,9 @@ footer .inner .item-second {
     .our_business_book .wrap,
     .guarantee_payback .container_midl .wrap,
     .system_control .container_midl .inner,
-    .real_reviews .wrap_first, .real_reviews .wrap_second, .real_reviews .wrap_third,
+    .real_reviews .wrap_first,
+    .real_reviews .wrap_second,
+    .real_reviews .wrap_third,
     .our_business_book .wrap,
     .startup_experience .container {
         width: 90%;
@@ -3375,7 +3399,8 @@ footer .inner .item-second {
         padding-left: 3%;
         padding-right: 3%;
     }
-    .startup_experience .container  {
+
+    .startup_experience .container {
         padding-top: 80px;
         padding-bottom: 80px;
     }
@@ -3400,7 +3425,7 @@ footer .inner .item-second {
         padding-left: 2px;
         padding-right: 2px;
     }
-    
+
     .difference__wrap-no_record .difference__item-img img {
         right: auto;
     }
@@ -3816,116 +3841,153 @@ footer .inner .item-second {
         padding: 10px;
         transition: 0.3s;
     }
+
     .iv-i {
         max-height: 200px;
     }
+
     .youtube .play,
     .y_box .youtube .play {
         width: 15vw;
         height: 15vw;
     }
+
     .header__top {
         margin-bottom: 0;
     }
+
     .about_us_for_smi__inner .big_text {
         padding-top: 0;
         max-width: 100%;
     }
+
     .about_us_for_smi__item {
         padding-right: 2%;
         padding-left: 2%;
         align-items: center;
     }
-    .lider__inner .big_text, .big_text__every_dey {
+
+    .lider__inner .big_text,
+    .big_text__every_dey {
         font-size: 5vw;
     }
+
     .many_cities__item.many_cities__item__wrap,
     .many_cities__inner.black_line {
         flex-direction: column;
     }
+
     .many_cities__item__contant .big_text {
         margin-top: 0px;
     }
+
     .many_cities__item__contant {
         margin-top: 30px;
     }
+
     .not_clouth__item {
         width: 100%;
     }
+
     .not_clouth__item p {
         min-height: 120px;
     }
+
     .big_text__not_clouth {
         margin-bottom: 20px;
     }
+
     .big__play__car__item.black_line {
         margin-bottom: 0px;
     }
+
     .haircut__item__contant {
         padding-left: 0;
     }
+
     .big__play__car__item.black_line {
         margin-left: 0;
     }
+
     .big_text-dif {
         margin-top: 40px;
     }
+
     .big_text-for_15_min,
     .big-text-no_recoed {
         margin: 20px 0;
     }
+
     .pont_inner {
         padding: 20px;
     }
+
     .form_second {
         margin-bottom: 100px;
     }
+
     .big_text.big_text_media {
         padding-top: 20px;
     }
+
     .question-answer .big_text {
         margin-top: 30px;
         margin-bottom: 20px;
     }
+
     .free_training .item_second h2 {
         padding-top: 10px;
     }
+
     .partner_feedback .inner {
         padding-top: 0px;
     }
+
     .partner_feedback .wrap {
         padding-bottom: 20px;
     }
+
     .big_text.big_text_media {
         max-width: 100%;
     }
-    .real_reviews .wrap {
-        padding-left: 0;
-    }
+
     .startup_experience .container_midl .wrap {
         margin-bottom: 20px;
     }
+
     .system_control .big_text {
         margin-top: 60px;
     }
+
     .system_control {
         margin-bottom: 40px;
     }
+
     .y_box .youtube {
         height: 188px;
     }
+
     .system_control {
         margin-bottom: 60px;
     }
+
     .guarantee_payback .container_midl .wrap {
         padding-top: 60px;
         padding-bottom: 30px;
     }
-    
-    
+
+    .bought_point_again .wrap h6 {
+        line-height: 1;
+    }
+
+    .real_reviews .big_text {
+        margin-top: 20px;
+    }
+
+    .real_reviews .wrap {
+        padding-left: 0;
+    }
 }
-
-
 
 
 @media (max-width: 320px) {
@@ -3935,36 +3997,3 @@ footer .inner .item-second {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-@font-face {
-    font-family: 'Proxima Nova Bl';
-    src: url('../fonts/ProximaNova/ProximaNova-Black.eot');
-    src: local('Proxima Nova Black'), local('ProximaNova-Black'),
-        url('../fonts/ProximaNova/ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ProximaNova/ProximaNova-Black.woff') format('woff'),
-        url('../fonts/ProximaNova/ProximaNova-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Proxima Nova Rg';
-    src: url('../fonts/ProximaNova/ProximaNova-Bold.eot');
-    src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
-        url('../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ProximaNova/ProximaNova-Bold.woff') format('woff'),
-        url('../fonts/ProximaNova/ProximaNova-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
