@@ -2204,6 +2204,9 @@ min-height: 360px;
 
 
  @media (max-width: 1600px) {
+    .question-answer .inner .item {
+        padding-bottom: 85px;
+    }
 
      .do_do_pizza .video_box {
          min-width: 430px;
@@ -2685,6 +2688,9 @@ min-height: 360px;
  }
 
  @media (max-width: 992px) {
+    .question-answer .inner .item{
+        padding: 0 5px;
+    }
      .do_do_pizza .video_box {
          max-width: 40vw;
          width: 40vw;
@@ -2884,6 +2890,7 @@ min-height: 360px;
 
 
  @media (max-width: 768px) {
+    
     .training_video .item {
         padding-bottom: 50px;
     }
@@ -3301,10 +3308,17 @@ min-height: 360px;
      footer .inner .item p {
          padding-left: 10%;
      }
+     .header__item-left .logo img {
+        width: 50%;
+    }
+    .not_clouth__item .half-ellipse {
+        display: none;
+    }
  }
 
 
  @media (max-width: 480px) {
+    
      .form_second {
          padding: 5%;
      }
