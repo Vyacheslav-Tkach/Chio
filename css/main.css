@@ -4489,6 +4489,15 @@ footer .inner .item-second {
     .slow_padding .header__item-left span {
         font-size: 16px;
     }
+    .video__feedback__item .box__video {
+        height: auto;
+    }
+    .big_text.big_text_media, .difference__item h6 {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    
+    }
     
 
 
