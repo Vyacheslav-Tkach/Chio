@@ -510,7 +510,6 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 100%;
     max-width: 1320px;
     padding-top: 30px;
     padding-left: 70px;
@@ -660,7 +659,7 @@ body {
 }
 
 .many_cities__item p {
-    padding-left: 85px;
+   
     padding-top: 10px;
     margin-bottom: 110px;
     font-size: 24px;
@@ -1493,6 +1492,9 @@ body {
     max-width: 600px;
     line-height: 1.5;
 }
+.left_of_black {
+    padding-left: 70px;
+}
 
 .fixed {
     position: fixed;
@@ -2265,6 +2267,11 @@ footer .inner .item-second {
         padding-bottom: 85px;
     }
 
+    .pont__item {
+        width: 33%;
+        padding: 0 20px
+    }
+
     .youtube:hover .play,
     .video-wrapper:hover .play {
         width: 8vw;
@@ -2440,10 +2447,64 @@ footer .inner .item-second {
         width: 500px;
     }
 
+    .many_cities__item,
+    .many_cities__item__contant p {
+        font-size: 22px;
+    }
+    .many_cities__item__contant {
+        width: 53%;
+    }
+    .many_cities__item__contant img {
+        width: 80%;
+    }
+    .many_cities__item__contant .big_text {
+        font-size: 64px
+    }
+    .many_cities .big_text__every_dey {
+        max-width: 55%;
+    }
 
 }
 
+@media (max-width: 1329px) {
+    .header__content__inner .bg_header {
+        right: 37px;
+        top: 28px;
+        width: 530px;
+    }
 
+    .header__content__inner h1 {
+        font-size: 48px;
+        max-width: 550px;
+    }
+
+    .header__content__item {
+        padding-left: 70px;
+    }
+
+    .header__content__item h4 {
+        font-size: 28px
+    }
+
+    .header__content__inner h1,
+    .pont h2,
+    .big_text,
+    .many_cities__item__contant .big_text {
+        font-size: 48px;
+    }
+
+    .pont_wrap h2 {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .black_line {
+        border-width: 10px
+    }
+  
+    
+
+}
 
 
 
@@ -2621,9 +2682,7 @@ footer .inner .item-second {
         font-size: 7vw;
     }
 
-    .many_cities__item p {
-        padding-left: 70px;
-    }
+  
 
     .many_cities__item p,
     .many_cities__item p,
@@ -2857,6 +2916,68 @@ footer .inner .item-second {
 }
 
 
+@media (max-width: 1040px) {
+    .container {
+        max-width: 760px;
+    }
+
+    .header__content__inner .bg_header {
+        right: -51px;
+        top: 28px;
+        width: 450px;
+    }
+
+    .black_line,
+    .big__play__car__item.black_line {
+        border-width: 10px;
+        border-width: 8px
+    }
+
+    .header__content__item,
+    .about_us_for_smi__wrap {
+        padding-left: 50px;
+    }
+
+    .header__content__inner h1 {
+        font-size: 36px;
+        max-width: 450px;
+    }
+
+    .header__content__item h4 {
+        font-size: 24px
+    }
+
+    .pont .container {
+        max-width: 760px;
+    }
+
+    .pont_inner {
+        flex-wrap: wrap
+    }
+
+    .pont__item h4 {
+        font-size: 24px;
+    }
+
+    .pont__item span {
+        font-size: 100px;
+    }
+
+    .pont__item span {
+        left: 0;
+    }
+    .big_text_media {
+        font-size: 36px;
+    }
+    .many_cities__item p, .many_cities__item p, .form p, .big__play__car__item p, .difference__wrap p, .difference__wrap .il_second, .difference__item_mb p, .difference__wrap p, .video_online .text__block p, .real_mani .item p, .default__text, .free_training .item_second p, .default__text, .bought_point_again .wrap .default__text-second, .guarantee_payback .container_midl p, .video__feedback__item p, .worker__text h3 {
+        font-size: 16px
+    }
+    .left_of_black {
+        padding-left: 50px;
+    }
+   
+}
+
 
 
 @media (max-width: 992px) {
@@ -2949,12 +3070,7 @@ footer .inner .item-second {
         padding-bottom: 80px;
     }
 
-    .header__content__inner .bg_header {
-        right: -35px;
-        top: -30px;
-        width: 450px;
-        opacity: 0.7;
-    }
+
 
     .video__feedback__item.black_line,
     .about_us_for_smi__wrap {
@@ -2973,25 +3089,7 @@ footer .inner .item-second {
         max-width: 760px;
     }
 
-    .many_cities__item p,
-    .many_cities__item p,
-    .form p,
-    .big__play__car__item p,
-    .difference__wrap p,
-    .difference__wrap .il_second,
-    .difference__item_mb p,
-    .difference__wrap p,
-    .video_online .text__block p,
-    .real_mani .item p,
-    .default__text,
-    .free_training .item_second p,
-    .default__text,
-    .bought_point_again .wrap .default__text-second,
-    .guarantee_payback .container_midl p,
-    .video__feedback__item p,
-    .worker__text h3 {
-        font-size: 2.5vw;
-    }
+    
 
     .not_clouth__item__ok {
         top: -54px;
@@ -3079,17 +3177,48 @@ footer .inner .item-second {
         margin-bottom: 110px;
     }
 
+    .header__content__inner .bg_header {
+        right: -26px;
+        top: 39px;
+        width: 450px;
+    }
+
 
 
 
 }
 
-@media (max-width: 1040px) {
+
+@media (max-width: 819px) {
+    .header__content__inner h1 {
+        max-width: 330px;
+        font-size: 26px;
+    }
+
+    .header__content__inner .bg_header {
+        width: 290px;
+    }
+
     .container {
-        max-width: 760px;
+        max-width: 550px;
+    }
+
+    .header__content__item h4 {
+        font-size: 20px;
+    }
+
+    .header__content__item p {
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    .header__content__inner .bg_header {
+        top: 54px;
+    }
+    .header__content__inner h1, .pont h2, .big_text, .many_cities__item__contant .big_text {
+        font-size: 26px;
     }
 }
-
 
 
 
@@ -3290,7 +3419,7 @@ footer .inner .item-second {
     }
 
     .header__content__inner .bg_header {
-        right: 0;
+        right: -10px;
         top: 138px;
         width: 40vw;
     }
@@ -3315,28 +3444,13 @@ footer .inner .item-second {
         right: 0;
     }
 
-    .pont__item h4 {
-        font-size: 3vw;
-    }
+
 
     .pont__item p {
         margin-top: 10px;
     }
 
-    .video__feedback__item.black_line,
-    .about_us_for_smi__wrap,
-    .many_cities__item__wrap,
-    .difference__inner.black_line,
-    .video_online .black_line,
-    .question-answer .inner,
-    .partner_feedback .wrap,
-    .bought_point_again .wrap,
-    .training_video .wrap.black_line,
-    .startup_experience .wrap,
-    .system_control .wrap-first,
-    .startup_experience .inner .big_text {
-        padding-left: 30px;
-    }
+    
 
 
     .lider__inner .big_text,
@@ -3581,9 +3695,19 @@ footer .inner .item-second {
         min-height: 230px;
     }
 
-
-
+    .pont .container {
+        max-width: 560px;
+    }
 }
+
+
+@media (max-width: 600px) {
+    .left_of_black {
+        padding-left: 70px;
+    }
+}
+
+
 
 @media (max-width: 561px) {
     .video__feedback__item .box__video {
@@ -3971,18 +4095,7 @@ footer .inner .item-second {
         padding-top: 10px;
     }
 
-    .video__feedback__item.black_line,
-    .about_us_for_smi__wrap,
-    .many_cities__item__wrap,
-    .difference__inner.black_line,
-    .video_online .black_line,
-    .partner_feedback .wrap,
-    .bought_point_again .wrap,
-    .training_video .wrap.black_line,
-    .startup_experience .wrap,
-    .system_control .wrap-first {
-        padding-left: 0;
-    }
+  
 
     .difference__wrap_mb {
         flex-direction: column-reverse;
@@ -4301,10 +4414,9 @@ footer .inner .item-second {
     }
 
     .header__content__inner .bg_header {
-        opacity: 1;
         top: 36px;
         width: 50%;
-        right: -10px;
+        right: 0px;
     }
 
     .header__content__item h4 {
