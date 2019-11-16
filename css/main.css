@@ -75,10 +75,6 @@
     font-style: normal;
 }
 
-.header__top.fixed.shadow {
-    display: none !important;
-}
-
 
 html {
     line-height: 1.15;
