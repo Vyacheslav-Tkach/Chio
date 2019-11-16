@@ -2917,8 +2917,33 @@ footer .inner .item-second {
 
 
 @media (max-width: 1040px) {
+    .about_us_for_smi__item p,
+    .many_cities__item p,
+    .many_cities__item p,
+    .form p,
+    .big__play__car__item p,
+    .difference__wrap p,
+    .difference__wrap .il_second,
+    .difference__item_mb p,
+    .difference__wrap p,
+    .video_online .text__block p,
+    .real_mani .item p,
+    .default__text,
+    .free_training .item_second p,
+    .default__text,
+    .bought_point_again .wrap .default__text-second,
+    .guarantee_payback .container_midl p,
+    .video__feedback__item p,
+    .haircut__item__contant p,
+    .worker__text h3,
+    .startup_experience .container_midl .big_text {
+        font-size: 16px;
+    }
     .container {
         max-width: 760px;
+    }
+    .many_cities__item__wrap {
+        padding-left: 50px;
     }
 
     .header__content__inner .bg_header {
@@ -2975,6 +3000,7 @@ footer .inner .item-second {
     .left_of_black {
         padding-left: 50px;
     }
+    
    
 }
 
@@ -3468,33 +3494,14 @@ footer .inner .item-second {
         max-width: 560px;
     }
 
-    .many_cities__item p,
-    .many_cities__item p,
-    .form p,
-    .big__play__car__item p,
-    .difference__wrap p,
-    .difference__wrap .il_second,
-    .difference__item_mb p,
-    .difference__wrap p,
-    .video_online .text__block p,
-    .real_mani .item p,
-    .default__text,
-    .free_training .item_second p,
-    .default__text,
-    .bought_point_again .wrap .default__text-second,
-    .guarantee_payback .container_midl p,
-    .video__feedback__item p,
-    .worker__text h3,
-    .startup_experience .inner .big_text {
-        font-size: 2.2vw;
-    }
+    
 
     .not_clouth__item__ok {
         position: relative;
     }
 
     .not_clouth__item {
-        width: 40%;
+        width: 48%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -3509,14 +3516,7 @@ footer .inner .item-second {
         width: 100%;
     }
 
-    .many_cities__item__contant img,
-    .not_clouth__item__ok,
-    .difference__item img,
-    .startup_experience .inner .item-img_box img,
-    .system_control .inner-title .box_img img,
-    .real_mani-tables img {
-        max-width: 25vw;
-    }
+  
 
     .form .container {
         max-width: 550px;
@@ -3698,12 +3698,21 @@ footer .inner .item-second {
     .pont .container {
         max-width: 560px;
     }
+    .many_cities__item__contant img, .not_clouth__item__ok, .difference__item img, .startup_experience .inner .item-img_box img, .system_control .inner-title .box_img img, .real_mani-tables img {
+        max-width: 80%;
+    }
 }
 
 
 @media (max-width: 600px) {
-    .left_of_black {
-        padding-left: 70px;
+    .left_of_black,
+    .video__feedback__item.black_line, .about_us_for_smi__wrap,
+    .many_cities__item__wrap {
+        padding-left: 5%;
+    }
+    .many_cities__item__contant img, .not_clouth__item__ok, .difference__item img, .startup_experience .inner .item-img_box img, .system_control .inner-title .box_img img {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -4030,32 +4039,11 @@ footer .inner .item-second {
     }
 
     .many_cities__item p {
-        font-size: 4vw;
         padding: 0;
         margin-bottom: 0px;
     }
 
-    .many_cities__item p,
-    .many_cities__item p,
-    .form p,
-    .big__play__car__item p,
-    .difference__wrap p,
-    .difference__wrap .il_second,
-    .difference__item_mb p,
-    .difference__wrap p,
-    .video_online .text__block p,
-    .real_mani .item p,
-    .default__text,
-    .free_training .item_second p,
-    .default__text,
-    .bought_point_again .wrap .default__text-second,
-    .guarantee_payback .container_midl p,
-    .video__feedback__item p,
-    .haircut__item__contant p,
-    .worker__text h3,
-    .startup_experience .container_midl .big_text {
-        font-size: 4.5vw;
-    }
+   
 
     .short_line {
         width: 0px;
@@ -4075,6 +4063,9 @@ footer .inner .item-second {
     .difference__wrap_anisin {
         flex-wrap: wrap;
 
+    }
+    .video__feedback__item p {
+        font-size: 14px
     }
 
     .many_cities__item__contant img,
@@ -4448,28 +4439,7 @@ footer .inner .item-second {
         padding-top: 0;
     }
 
-    .about_us_for_smi__item p,
-    .many_cities__item p,
-    .many_cities__item p,
-    .form p,
-    .big__play__car__item p,
-    .difference__wrap p,
-    .difference__wrap .il_second,
-    .difference__item_mb p,
-    .difference__wrap p,
-    .video_online .text__block p,
-    .real_mani .item p,
-    .default__text,
-    .free_training .item_second p,
-    .default__text,
-    .bought_point_again .wrap .default__text-second,
-    .guarantee_payback .container_midl p,
-    .video__feedback__item p,
-    .haircut__item__contant p,
-    .worker__text h3,
-    .startup_experience .container_midl .big_text {
-        font-size: 14px;
-    }
+   
 
     .about_us_for_smi__inner .big_text {
         font-size: 5.1vw;
@@ -4624,6 +4594,10 @@ footer .inner .item-second {
         margin-top: 20px;
 
     }
+    .left_of_black, .video__feedback__item.black_line, .about_us_for_smi__wrap, .many_cities__item__wrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
 
 
@@ -4636,5 +4610,8 @@ footer .inner .item-second {
 @media (max-width: 320px) {
     .header__content__item a {
         font-size: 10px;
+    }
+    .big_text.big_text_media {
+        font-size: 7vw;
     }
 }
