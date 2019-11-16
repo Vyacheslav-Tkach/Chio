@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-@font-face {
+@font-face { 
     font-family: 'Proxima Nova Lt';
     src: url('../fonts/ProximaNova/ProximaNova-Semibold.eot');
     src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
