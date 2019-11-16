@@ -75,7 +75,9 @@
     font-style: normal;
 }
 
-
+.header__top.fixed.shadow {
+    display: none !important;
+}
 
 
 html {
@@ -422,7 +424,7 @@ body {
 .big_text {
     position: relative;
     max-width: 900px;
-    padding-top: 71px;
+    padding-top: 7%;
     margin-bottom: 38px;
     font-family: 'Proxima Nova Bl', Georgia, sans-serif;
     font-size: 72px;
@@ -2160,8 +2162,8 @@ footer .inner .item-second {
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     position: absolute;
-    height: 4vw;
-    width: 4vw;
+    height: 50px;
+    width: 50px;
     transition: none;
     top: 0;
     left: 0;
@@ -2179,8 +2181,8 @@ footer .inner .item-second {
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     position: absolute;
-    height: 4vw;
-    width: 4vw;
+    height: 50px;
+    width: 50px;
     transition: none;
     top: 0;
     left: 0;
@@ -2193,8 +2195,8 @@ footer .inner .item-second {
 
 .youtube:hover .play,
 .video-wrapper:hover .play {
-    height: 4.9vw;
-    width: 4.9vw;
+    height: 55px;
+    width: 55px;
     transition: 0.4s;
 }
 
@@ -2272,6 +2274,19 @@ footer .inner .item-second {
         right: -100px;
     }
 
+    .container_midl {
+        max-width: 1040px;
+    }
+
+
+
+    .pont__second .pont_wrap {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
     .difference__wrap_mb .difference__item img,
     .mt150,
     .difference__wrap-oclock .difference__item-img img,
@@ -2291,15 +2306,15 @@ footer .inner .item-second {
 
     .youtube:hover .play,
     .video-wrapper:hover .play {
-        width: 8vw;
-        height: 8vw;
+        width: 55px;
+        height: 55px;
         cursor: pointer;
     }
 
     .youtube .play,
     .video-wrapper .play {
-        width: 7vw;
-        height: 7vw;
+        width: 50px;
+        height: 50px;
         cursor: pointer;
     }
 
@@ -2492,6 +2507,31 @@ footer .inner .item-second {
         max-width: 55%;
     }
 
+    .real_reviews .inner .video_box {
+        width: 320px;
+        height: 220px;
+        min-width: auto;
+        min-height: auto
+    }
+
+    .real_reviews .inner .img_box {
+        display: none;
+    }
+
+    .real_reviews .inner .img_box img {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        left: auto;
+    }
+
+    .real_reviews .inner .item-second {
+        max-width: 100%;
+    }
+
+
+
 }
 
 @media (max-width: 1329px) {
@@ -2543,6 +2583,28 @@ footer .inner .item-second {
 
 
 @media (max-width: 1200px) {
+    .container_midl {
+        max-width: 960px;
+    }
+
+    .form_second {
+        margin-bottom: 7%;
+    }
+
+    .real_mani .decoration img {
+        display: none;
+    }
+
+    .real_mani-tables {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .real_mani-tables img {
+        width: 80%;
+    }
+
     .difference__item .big_text-call_centr {
         padding-top: 0px;
     }
@@ -2568,10 +2630,7 @@ footer .inner .item-second {
         display: none;
     }
 
-    .real_reviews .inner .video_box {
-        min-width: 43vw;
-        height: 224px;
-    }
+
 
     .real_reviews .inner .video_box iframe {
         min-height: 24vw;
@@ -2860,9 +2919,7 @@ footer .inner .item-second {
         top: 100px;
     }
 
-    .pont__second .pont_wrap .pont_inner {
-        flex-direction: column;
-    }
+
 
     .pont__second .pont__item-second {
         margin-left: 0;
@@ -2992,11 +3049,67 @@ footer .inner .item-second {
         flex-wrap: wrap;
     }
 
+    .big_text-main__opecity_franshiz {
+        margin-top: 80px;
+    }
+
 
 }
 
 
 @media (max-width: 1040px) {
+
+    .worker .video__box,
+    .do_do_pizza .video_box {
+        width: 340px;
+        height: 250px;
+        min-width: auto;
+        min-height: auto
+    }
+
+    .free_training .video_box {
+        width: 340px;
+        height: 218px;
+        min-width: auto;
+        min-height: auto
+    }
+
+    .container_midl {
+        max-width: 760px;
+    }
+
+    .pont__second .pont_wrap .pont_inner {
+        flex-direction: column;
+    }
+
+    .pont__item {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .real_reviews .span_first {
+        font-size: 16px;
+    }
+
+    .real_reviews .inner .video_box {
+        width: 230px;
+        height: 160px;
+    }
+
+    .real_reviews h6 {
+        font-size: 17px;
+    }
+
+    .real_reviews .real_reviews_castopm_p,
+    .real_reviews .span_second {
+        font-size: 13px;
+    }
+
+    .real_reviews .wrap_first,
+    .real_reviews .wrap_second,
+    .real_reviews .wrap_third {
+        padding: 40px;
+    }
 
     .real_mani-tables img {
         max-width: 30vw;
@@ -3349,21 +3462,61 @@ footer .inner .item-second {
         width: 450px;
     }
 
+    .real_mani .black_line,
+    .partner_feedback .wrap,
+    .bought_point_again .wrap,
+    .real_reviews .wrap,
+    .our_business_book h4.big_text,
+    .training_video .wrap.black_line,
+    .startup_experience .wrap,
+    .system_control .wrap-first,
+    .system_control .wrap_second {
+        padding-left: 50px;
+    }
 
+    .free_training .inner,
+    .worker .inner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .free_training .video_box,
+    .worker .video__box {
+        margin: 0 auto;
+    }
+
+    .free_training .item_second,
+    .worker .inner .worker__text {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .question-answer {
+        margin-bottom: 80px;
+    }
+    .system_control .inner-title .box_img {
+        right: 0;
+        top: 0;
+    }
 
 
 }
 
 
-@media (max-width: 819px) {
+@media (max-width: 820px) {
     .header__content__inner h1 {
         max-width: 330px;
+        font-size: 26px;
+    }
+
+    .worker__text h3 {
         font-size: 26px;
     }
 
     .header__content__inner .bg_header {
         width: 290px;
     }
+
 
     .container {
         max-width: 550px;
@@ -3405,6 +3558,7 @@ footer .inner .item-second {
         max-width: 100%;
     }
 
+
 }
 
 
@@ -3415,8 +3569,53 @@ footer .inner .item-second {
 
 
 @media (max-width: 768px) {
-    .difference__inner.black_line {
+    .difference__wrap__hygiene_standards .difference__item__content img {
+        width: 80%
+    }
+
+    .startup_experience .container_midl .wrap {
+
+        margin-bottom: 80px;
+        box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.15);
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+
+    }
+    .guarantee_payback .container_midl .form {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .guarantee_payback .container_midl .wrap {
+        padding-top: 60px;
+    }
+
+    .difference__inner.black_line,
+    .real_mani .black_line,
+    .big__play__car__item,
+    .many_cities__item__wrap,
+    .video_online .black_line,
+    .question-answer .inner,
+    .partner_feedback .wrap,
+    .bought_point_again .wrap,
+    .real_reviews .wrap,
+    .our_business_book h4.big_text,
+    .training_video .wrap.black_line,
+    .startup_experience .wrap,
+    .system_control .wrap-first,
+    .system_control .wrap_second {
         padding-left: 5%;
+    }
+
+    .partner_feedback .inner .item {
+        padding: 0;
+    }
+
+    .container_midl {
+        max-width: 560px;
     }
 
     .training_video .item {
@@ -3481,26 +3680,7 @@ footer .inner .item-second {
         align-items: center;
     }
 
-    .worker .video__box,
-    .free_training .video_box {
-        padding: 0;
-        min-width: 30vw;
-        width: 40vw;
-        max-width: 40vw;
-        height: 30vw;
-        min-height: 30vw;
-        max-height: 30vw;
-    }
 
-    .worker .video__box iframe,
-    .free_training .video_box iframe {
-        min-width: 40vw;
-        width: 40vw;
-        max-width: 40vw;
-        height: 30vw;
-        min-height: 30vw;
-        max-height: 30vw;
-    }
 
     .worker .video__box .default__text {
         font-size: 1vw;
@@ -3514,10 +3694,7 @@ footer .inner .item-second {
         margin-top: 10px;
     }
 
-    .real_mani-tables {
-        right: 20px;
-        top: -140px;
-    }
+
 
     .real_mani .btn__black {
         margin-top: 50px;
@@ -3789,9 +3966,6 @@ footer .inner .item-second {
         max-width: 80%;
     }
 
-    .system_control .wrap_second {
-        padding-left: 0;
-    }
 
     footer .inner .item p {
         padding-left: 10%;
@@ -3891,6 +4065,12 @@ footer .inner .item-second {
     .video__feedback__item .box__video {
         height: 44vw;
     }
+
+    .container_midl {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
 }
 
 
@@ -3898,6 +4078,21 @@ footer .inner .item-second {
     .difference__wrap-no_record .difference__item-img img {
         position: relative;
         z-index: -1;
+    }
+
+    .real_mani .inner {
+        flex-direction: column-reverse;
+    }
+
+
+
+    .difference__wrap__hygiene_standards .difference__item__content img {
+        width: 100%;
+    }
+
+    .real_mani-tables {
+        display: flex;
+        justify-content: center;
     }
 
     .difference__wrap-oclock {
@@ -4013,7 +4208,7 @@ footer .inner .item-second {
 
     .partner_feedback .inner .video_box {
         max-width: 100%;
-        min-height: 240px;
+        min-height: 300px
     }
 
     .partner_feedback .inner .video_box iframe {
@@ -4364,6 +4559,7 @@ footer .inner .item-second {
 
     .iv-i {
         max-height: 200px;
+        width: 100%;
     }
 
     .youtube .play,
@@ -4504,9 +4700,20 @@ footer .inner .item-second {
         margin-top: 20px;
     }
 
-    .real_reviews .wrap {
+    .real_mani .decoration img {
+        display: none;
+    }
+
+    .real_reviews .container_midl .item {
+        padding-top: 0;
+    }
+
+    .bought_point_again .wrap,
+    .real_reviews .wrap.black_line {
         padding-left: 0;
     }
+
+
 
     .contact__form {
         flex-direction: column;
@@ -4684,7 +4891,7 @@ footer .inner .item-second {
 
     .pont__second .pont_wrap .pont_inner {
         text-align: center;
-        width: 100%;
+
     }
 
     .big_text_media {
@@ -4774,7 +4981,6 @@ footer .inner .item-second {
         padding-left: 0;
         padding-right: 0;
     }
-
 
 
 
