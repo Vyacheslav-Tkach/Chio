@@ -156,14 +156,24 @@ r(function(){
 
 	
 
-document.querySelector(".video-overlay").onclick = function(){
-    this.style.display = "none";
-    
-}
+
 
 $(document).ready(function () {
    $('.video-overlay').on('click', function () {
       $('.play').toggle();
+      $('.video-overlay').toggle();
     });
   });
-  
+
+  $(document).ready(function () {
+    $('.play_castom').on('click', function () {
+       $('.play').toggle();
+       $('.video-overlay').toggle();
+     });
+   });
+
+
+
+    
+
+ 
