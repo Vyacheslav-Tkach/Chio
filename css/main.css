@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-@font-face { 
+@font-face {
     font-family: 'Proxima Nova Lt';
     src: url('../fonts/ProximaNova/ProximaNova-Semibold.eot');
     src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
@@ -2329,7 +2329,8 @@ footer .inner .item-second {
 
     .header__content__inner .bg_header {
         right: -130px;
-        top: -50px;
+        top: 19px;
+        width: 640px;
     }
 
     .pont .container {
@@ -2494,6 +2495,7 @@ footer .inner .item-second {
         max-width: 116px;
         width: max-content;
     }
+
     .slow_padding .header__item-right .default__btn {
         width: 100%;
     }
@@ -2845,6 +2847,7 @@ footer .inner .item-second {
         min-height: auto;
         height: 248px;
     }
+
     .do_do_pizza .inner {
         justify-content: space-around;
         margin-top: 110px;
@@ -3061,6 +3064,7 @@ footer .inner .item-second {
     .guarantee_payback .container_midl .form .container .default__btn {
         margin-top: 50px;
     }
+
     .do_do_pizza .video_box {
         width: 557px;
         min-width: auto;
@@ -3068,6 +3072,7 @@ footer .inner .item-second {
         height: 348px;
         max-width: 50vw;
     }
+
     .do_do_pizza .inner {
         justify-content: space-around;
         margin-top: 110px;
@@ -3571,10 +3576,11 @@ footer .inner .item-second {
     .do_do_pizza .video_box {
         width: 300px;
     }
+
     .real_reviews .inner .video_box {
         min-height: 230px;
     }
-    
+
 
 
 }
@@ -4469,15 +4475,19 @@ footer .inner .item-second {
         padding-left: 0;
         padding-right: 0;
     }
+
     .youtube {
         min-height: 291px;
     }
+
     .slow_padding .header__item-left .logo img {
         width: 130px;
     }
+
     .slow_padding .header__item-right .number__phone {
         font-size: 22px;
     }
+
     .header__top__inner.slow_padding {
         padding-left: 0;
         padding-right: 0;
@@ -4486,19 +4496,23 @@ footer .inner .item-second {
     .slow_padding .header__item-right .default__btn {
         font-size: 20px;
     }
+
     .slow_padding .header__item-left span {
         font-size: 16px;
     }
+
     .video__feedback__item .box__video {
         height: auto;
     }
-    .big_text.big_text_media, .difference__item h6 {
+
+    .big_text.big_text_media,
+    .difference__item h6 {
         text-align: center;
         margin-bottom: 20px;
         margin-top: 20px;
-    
+
     }
-    
+
 
 
 
