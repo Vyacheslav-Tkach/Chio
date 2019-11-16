@@ -1241,6 +1241,7 @@ body {
 .video_online .video__block {
     max-width: 920px;
     margin-bottom: 90px;
+    width: auto;
 }
 
 .other_cam {
@@ -2243,7 +2244,7 @@ footer .inner .item-second {
 .video-wrapper {
     position: relative;
     display: inline-block;
-    width: 100%;
+    width: auto;
 }
 
 .video-overlay {
@@ -2255,6 +2256,10 @@ footer .inner .item-second {
     width: 100%;
     background-image: url("/img/live.jpg");
     background-size: cover;
+    cursor: pointer;
+}
+.iv-i {
+    width: 888px;
 }
 
 
@@ -2276,12 +2281,14 @@ footer .inner .item-second {
     .video-wrapper:hover .play {
         width: 8vw;
         height: 8vw;
+        cursor: pointer;
     }
 
     .youtube .play,
     .video-wrapper .play {
         width: 7vw;
         height: 7vw;
+        cursor: pointer;
     }
 
     .free_training .video_box {
@@ -3244,6 +3251,19 @@ footer .inner .item-second {
     .header__content__inner h1, .pont h2, .big_text, .many_cities__item__contant .big_text {
         font-size: 26px;
     }
+    .contact__form label {
+        max-width: 45%;
+        padding: 0 2.5%;
+    }
+    .contact__form label input {
+        max-width: 100%;
+        width: 100%;
+    }
+    .contact__form .label_third, .contact__form .label_third input {
+        width: 100%;
+        max-width: 100%;
+    }
+
 }
 
 
