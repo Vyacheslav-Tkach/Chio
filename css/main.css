@@ -2269,12 +2269,17 @@ footer .inner .item-second {
     .difference__wrap-no_record .difference__item-img img {
         right: -100px;
     }
+
     .training_video .decoration_img img {
         display: none;
     }
 
     .container_midl {
         max-width: 1040px;
+    }
+
+    .pont_inner {
+        margin: 0 auto;
     }
 
 
@@ -2379,12 +2384,7 @@ footer .inner .item-second {
     }
 
     .pont .container {
-        max-width: 960px;
-    }
-
-    .pont_inner {
-        padding: 60px;
-        margin: 0 auto;
+        max-width: 1040px;
     }
 
     .pont__item span {
@@ -2454,6 +2454,7 @@ footer .inner .item-second {
         right: -10vw;
         width: 40vw;
     }
+
     .system_control .inner-title .box_img img {
         right: 0;
     }
@@ -2531,10 +2532,27 @@ footer .inner .item-second {
     .real_reviews .inner .item-second {
         max-width: 100%;
     }
+
     .our_business_book .wrap_text .inner .item {
         font-size: 12px;
         width: 100%;
         min-width: auto;
+    }
+
+    .guarantee_payback .container_midl .form .container .default__btn {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .pont__item h4 {
+        font-size: 24px;
+    }
+
+    .pont__item p {
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 1.4;
+        margin-top: 0px;
     }
 
 
@@ -2580,7 +2598,7 @@ footer .inner .item-second {
     .big-text-no_recoed {
         max-width: 70%
     }
-    
+
 
 }
 
@@ -2593,7 +2611,7 @@ footer .inner .item-second {
     .container_midl {
         max-width: 960px;
     }
-    
+
 
     .form_second {
         margin-bottom: 7%;
@@ -2628,7 +2646,7 @@ footer .inner .item-second {
         top: 15vw;
     }
 
-   
+
 
     .real_reviews .inner .img_box img {
         display: none;
@@ -3008,9 +3026,8 @@ footer .inner .item-second {
         padding: 11px 22px;
         font-size: 16px;
     }
-
-    .contact__form {
-        height: 40px;
+    .pont .container {
+        max-width: 960px;
     }
 
     .do_do_pizza .video_box {
@@ -3062,18 +3079,24 @@ footer .inner .item-second {
 
 
 @media (max-width: 1040px) {
-    .startup_experience .inner .item-img_box img, .system_control .inner-title .box_img img {
+   
+
+    .startup_experience .inner .item-img_box img,
+    .system_control .inner-title .box_img img {
         right: 0;
         top: 10vw;
     }
+
     .system_control h5 {
         max-width: 75%;
     }
+
     .startup_experience .wrap .inner .default__btn {
         font-size: 10px;
     }
- 
-    .startup_experience .wrap .inner .default__btn-vk, .startup_experience .wrap .inner .default__btn-inst {
+
+    .startup_experience .wrap .inner .default__btn-vk,
+    .startup_experience .wrap .inner .default__btn-inst {
         width: 60px;
         height: 60px;
     }
@@ -3102,7 +3125,7 @@ footer .inner .item-second {
     }
 
     .pont__item {
-        width: 100%;
+     
         max-width: 100%;
     }
 
@@ -3273,6 +3296,7 @@ footer .inner .item-second {
     .left_of_black {
         padding-left: 50px;
     }
+    
 
 
 }
@@ -3284,7 +3308,7 @@ footer .inner .item-second {
         height: 225px;
         width: 400px;
     }
-
+   
     .question-answer .inner .item {
         margin-bottom: 86px;
     }
@@ -3514,10 +3538,12 @@ footer .inner .item-second {
     .question-answer {
         margin-bottom: 80px;
     }
+
     .system_control .inner-title .box_img {
         right: 0;
         top: 0;
     }
+
     .startup_experience .container_midl .wrap {
         margin-bottom: 80px;
         box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.15);
@@ -3528,24 +3554,29 @@ footer .inner .item-second {
         align-content: center;
         align-items: center;
     }
+   
 
 
 }
 
 
 @media (max-width: 820px) {
-   .form.form_second .contact__form,
-   .form.form_third .contact__form{
-       flex-direction: column;
-   }
-   .form.form_second .contact__form label,
-   .form.form_third .contact__form label{
-       max-width: 100%;
-   }
-   .form.form_second .contact__form  .castom-btn,
-   .form.form_third .contact__form .default__btn {
-       margin-top: 20px;
-   }
+
+    .form.form_second .contact__form,
+    .form.form_third .contact__form {
+        flex-direction: column;
+    }
+
+    .form.form_second .contact__form label,
+    .form.form_third .contact__form label {
+        max-width: 100%;
+    }
+
+    .form.form_second .contact__form .castom-btn,
+    .form.form_third .contact__form .default__btn {
+        margin-top: 20px;
+    }
+
     .header__content__inner h1 {
         max-width: 330px;
         font-size: 26px;
@@ -3614,24 +3645,30 @@ footer .inner .item-second {
     .system_control .inner-title .box_img img {
         width: 37%;
     }
+
     .difference__wrap__hygiene_standards .difference__item__content img {
         width: 80%
     }
+
     .container_midl {
         max-width: 560px;
     }
+
     .system_control .y_box {
         display: flex;
         justify-content: center;
     }
+
     .system_control .y_box .youtube {
         height: 180px;
         max-width: 300px;
     }
+
     .guarantee_payback .container_midl .form {
         padding-bottom: 0;
         margin-bottom: 0;
     }
+
     .guarantee_payback .container_midl .wrap {
         padding-top: 60px;
     }
@@ -3790,7 +3827,7 @@ footer .inner .item-second {
         max-height: 100%;
     }
 
-   
+
 
     .header__item {
         width: 100%;
@@ -4093,9 +4130,11 @@ footer .inner .item-second {
         padding-left: 0;
         padding-right: 0;
     }
+
     .container_midl {
         max-width: 93%;
     }
+
     .form {
         padding-left: 0;
     }
@@ -4125,10 +4164,12 @@ footer .inner .item-second {
     .real_mani .inner {
         flex-direction: column-reverse;
     }
+
     .do_do_pizza .video_box {
         max-width: 100%;
         max-height: 290px;
     }
+
     .partner_feedback .inner .video_box {
         min-width: 100%;
     }
